@@ -236,11 +236,17 @@ public class Clock extends UGen implements IntegerBead {
     	}
     }
     
+    protected void doClick() {
+    	if (isBeat())
+    		context.out.addInput(new Clicker(context, clickStrength));
+    }
+    
     /**
      * Trigger a tick.
      */
     private void tick() {
-    	if(click && isBeat()) context.out.addInput(new Clicker(context, clickStrength));
+    	if (click)
+    		doClick();
     	listeners.message(this);
     }
 
