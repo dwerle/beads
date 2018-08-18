@@ -14,3 +14,5 @@ Export-Package: net.beadsproject.beads.analysis,
  net.beadsproject.beads.events,
  net.beadsproject.beads.ugens,
  org.jaudiolibs.beads
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
