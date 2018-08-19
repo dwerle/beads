@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/net.beadsproject.beads.osgi.feature_2.0.0.qualifier.jar" id="net.beadsproject.beads.osgi.feature" version="2.0.0.qualifier">
+      <category name="net.beadsproject.beads.osgi"/>
+   </feature>
+   <category-def name="net.beadsproject.beads.osgi" label="net.beadsproject.beads.osgi"/>
+</site>
