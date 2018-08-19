@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>net.beadsproject.beads.osgi.main</artifactId>
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>net.beadsproject.beads.osgi</groupId>
+		<artifactId>net.beadsproject.beads.osgi.bundles</artifactId>
+		<version>2.0.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>github-dwerle-audioservers</id>
+			<name>github-dwerle-audioservers</name>
+			<url>https://github.com/dwerle/audioservers/raw/repository</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.googlecode.soundlibs</groupId>
+			<artifactId>tritonus-all</artifactId>
+			<version>0.3.7.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jaudiolibs</groupId>
+			<artifactId>jnajack</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jaudiolibs</groupId>
+			<artifactId>audioservers-api</artifactId>
+			<version>1.2.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jaudiolibs</groupId>
+			<artifactId>audioservers-jack</artifactId>
+			<version>1.2.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jaudiolibs</groupId>
+			<artifactId>audioservers-javasound</artifactId>
+			<version>1.2.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
