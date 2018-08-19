@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Beads
 Bundle-SymbolicName: net.beadsproject.beads.osgi.main
-Bundle-Version: 2.0.0
+Bundle-Version: 2.0.0.qualifier
 Export-Package: net.beadsproject.beads.analysis,
  net.beadsproject.beads.analysis.featureextractors,
  net.beadsproject.beads.analysis.segmenters,

@@ -5,11 +5,9 @@
 	<parent>
 		<groupId>net.beadsproject.beads.osgi</groupId>
 		<artifactId>net.beadsproject.beads.osgi.releng</artifactId>
-		<version>2.0.0</version>
+		<version>2.0.0-SNAPSHOT</version>
 	</parent>
 
-<groupId>net.beadsproject.beads.osgi</groupId>
 	<artifactId>net.beadsproject.beads.osgi.target</artifactId>
-	<version>2.0.0</version>
 	<packaging>eclipse-target-definition</packaging>
 </project>
